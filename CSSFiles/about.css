@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+html {
+  background: linear-gradient(180deg, black, #eefe27);
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  background-color: transparent;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.name {
+  text-shadow: 1px 1px #eefe27;
+  height: 80px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  background-color: transparent;
+  display: flex;
+  height: 80px;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.list {
+  background-color: transparent;
+  margin: 2px;
+  position: relative;
+  right: 0;
+}
+
+a {
+  color: transparent;
+  text-shadow: 1px 1px #eefe27;
+}
+
+a:visited {
+  color: transparent;
+  text-shadow: 1px 1px #eefe27;
+}
+
+/* i dont't know what this is or how it got here but its keeping everything together  */
+
+div {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 105px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+}
+
+#about {
+  text-decoration: underline;
+}
+
+.main-head {
+  margin-top: 85px;
+  color: whitesmoke;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: white;
+  text-align: start;
+  border-bottom: 1px dotted red;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: end;
+  white-space: wrap;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+img {
+  float: left;
+  margin-right: 5px;
+  display: flex;
+  position: relative;
+}
